@@ -15,7 +15,7 @@ CORS(app)
 #=================== RUTA RAIZ =============
 @app.route('/')
 def index():
-    return jsonify("servidor ipc1")
+    return "<h1>Distant Reading Archive</h1><p>This site is a prototype API for distant reading of science fiction novels.</p>"
 
 # ========== RUTA DE NOMBRE ================
 
